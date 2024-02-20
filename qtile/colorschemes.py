@@ -99,3 +99,21 @@ def nordic():
     }
 
     return colors
+
+colors = nordic()
+palette = {
+    "bg": colors["gray0"],
+    "fg": colors["white1"],
+    "red": colors["red"],
+    "green": colors["green"]["base"],
+    "blue": colors["blue0"],
+    "yellow": colors["yellow"]["base"],
+    "orange": colors["orange"],
+    "black": colors["black0"],
+    "white": colors["white0"],
+    "cyan": colors["cyan"]["base"],
+    "gray": colors["gray0"],
+    "extras": colors["gray2"],
+}
+
+
