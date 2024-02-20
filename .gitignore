@@ -3,5 +3,5 @@ jack/
 python-venv/
 dconf/
 gtk-3.0/
-qtile_extras/
+**/qtile_extras/
 
