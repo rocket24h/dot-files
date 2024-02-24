@@ -4,4 +4,4 @@ python-venv/
 dconf/
 gtk-3.0/
 ./qtile/qtile_extras/
-VSCodium
+VSCodium/
