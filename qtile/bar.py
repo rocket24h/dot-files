@@ -6,9 +6,13 @@ from qtile_extras import widget
 
 top_bar = bar.Bar(
     [
+        widgets.icon,
         widgets.groupbox,
         widgets.prompt,
-        widget.WindowName(),
+        # widget.WindowName(),
+        widgets.spacer,
+        widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
+        widgets.spacer,
         widget.Chord(
             chords_colors={
                 "launch": ("#ff0000", "#ffffff"),
@@ -23,9 +27,8 @@ top_bar = bar.Bar(
         # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
         # widget.StatusNotifier(),
         widget.Systray(),
-        widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
         widget.QuickExit(),
     ],
-    size=32,
+    size=42,
     background=palette["black"],
 )

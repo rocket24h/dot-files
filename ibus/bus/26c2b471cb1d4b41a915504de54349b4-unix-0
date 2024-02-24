@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/rocket24h/.cache/ibus/dbus-KrTH0mjr,guid=ed1f88458374e1de1c329c3165d4168e
+IBUS_ADDRESS=unix:path=/home/rocket24h/.cache/ibus/dbus-0EJI0l4K,guid=8eaebf7e51ca1a2338bf049d65d9e3b1
 IBUS_DAEMON_PID=2024
